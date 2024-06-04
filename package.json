@@ -54,5 +54,9 @@
   "dependencies": {
     "autoprefixer": "^10.4.16",
     "unocss-preset-component": "^0.0.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
