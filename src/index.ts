@@ -37,7 +37,7 @@ export default function presetDaisyui(option?: Config): Preset {
         },
       ],
     }),
-    name: 'unocss-preset-daisyui',
+    name: '@vsilk/unocss-preset-daisyui',
     theme: daisy.config?.theme?.extend,
   }
 }

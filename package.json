@@ -1,16 +1,17 @@
 {
-  "name": "unocss-preset-daisyui",
+  "name": "@vsilk/unocss-preset-daisyui",
   "version": "0.0.3",
+  "type": "module",
   "author": "",
   "license": "MIT",
   "description": "UnoCSS preset for daisyUI",
-  "homepage": "https://github.com/Super-Lollipop/unocss-preset-daisyui",
+  "homepage": "https://github.com/tt-sevth/unocss-preset-daisyui",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Super-Lollipop/unocss-preset-daisyui"
+    "url": "https://github.com/tt-sevth/unocss-preset-daisyui"
   },
   "bugs": {
-    "url": "https://github.com/Super-Lollipop/unocss-preset-daisyui/issues"
+    "url": "https://github.com/tt-sevth/unocss-preset-daisyui/issues"
   },
   "keywords": [
     "unocss",
@@ -37,13 +38,14 @@
     "release": "bumpp && pnpm build && pnpm publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.3.4",
+    "@antfu/eslint-config": "^2.20.0",
     "@types/node": "^20.10.3",
     "@types/postcss-js": "^4.0.4",
     "bumpp": "^9.2.0",
     "eslint": "^8.55.0",
     "typescript": "^5.3.2",
-    "unbuild": "^2.0.0"
+    "unbuild": "^2.0.0",
+    "@unocss/eslint-plugin": "^0.60.4"
   },
   "peerDependencies": {
     "daisyui": ">=4.0.0",

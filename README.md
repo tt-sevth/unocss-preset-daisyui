@@ -1,9 +1,11 @@
-# unocss-preset-daisyui
+# @vsilk/unocss-preset-daisyui
+
+> fork from [unocss-preset-daisyui](https://github.com/LeekJay/unocss-preset-daisyui)
 
 ## Installation
 
 ```bash
-npm i -D unocss daisyui unocss-preset-daisyui
+npm i -D unocss daisyui @vsilk/unocss-preset-daisyui
 ```
 
 ## Usages
@@ -12,7 +14,7 @@ uno.config.ts
 
 ```typescript
 import { defineConfig, presetUno } from 'unocss'
-import presetDaisy from 'unocss-preset-daisyui'
+import presetDaisy from '@vsilk/unocss-preset-daisyui'
 
 export default defineConfig({
   presets: [
